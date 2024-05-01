@@ -23,13 +23,15 @@
     }
         
     </style>
+    {% load static %}
+    <link rel="icon" href="{% static 'img/logo.jpg' %}" type="image/icon type">
 </head>
 <body>
     <div class="d-md-flex h-md-100 align-items-center">
         <div class="col-md-6 p-0 bg-roxo" style="height:100vh;"> 
-            <div class="text-white d-flex flex-column align-items-center h-100 p-5 text-center justify-content-center "> 
-                <h3>Logo gurias of code (fazer)</h3> 
-                <img src="undraw_Educator_re_ju47-removebg-preview.png" class="img-fluid" alt="">
+            <div class="text-white d-flex flex-column align-items-center h-100 p-5 text-center justify-content-center ">  
+                {% load static %}
+                <img src="{% static 'img/logo.jpg' %}" class="img-fluid" alt="">
             </div> 
         </div>
         <div class="col-md-6 p-0 bg-white h-md-100 loginarea">
@@ -83,7 +85,7 @@
     </div>
   </div>
 </div>
-          </div>
+            </div>
          </div> 
         </div>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
