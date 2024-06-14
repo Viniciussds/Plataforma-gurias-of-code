@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#navbar{
+    padding: 15px;
+}
+.navbar-brand{
+    color: white;
+}
+.navbar-brand:hover{
+    color: #240054;
+}
+.nav-item .nav-link{
+    color: white;
+}
+.nav-item .nav-link:hover {
+    color: #802cee;
+}
+.list-guides{
+    cursor: pointer;
+}
+.menu-guia li {
+    border: 1px solid #6f42c1;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #f8f9fa;
+    transition: background-color 0.3s;
+}
+.menu-guia li:hover {
+    background-color: #e9ecef;
+}
+.menu-guia a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+}
+.menu-guia a:hover {
+    color: inherit;
+}
+.index-menu a {
+    text-decoration: none;
+    color: #240054;
+}
+.index-menu li {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+}
+.roxo{
+    color: #240054;
+}

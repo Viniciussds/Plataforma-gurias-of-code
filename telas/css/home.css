@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: black;
+}
+.bg-fundo{
+    background-color: #240054;
+}
+#navbar{
+    color: white;
+    padding: 15px;
+}
+.roxo{
+    color: #240054;
+}
+.btn-roxo-hero{
+    background-color: #240054;
+    color: white;
+    transition: .5s;
+    border-radius: 40px;
+}
+.btn-roxo-hero:hover {
+    background-color: rgba(144, 144, 144, 0.267); /* Altere para a cor cinza desejada */
+    color: black;
+}
+.navbar-brand{
+    color: white;
+}
+.navbar-brand:hover{
+    color: #240054;
+}
+.nav-item .nav-link{
+    color: white;
+}
+.nav-item .nav-link:hover {
+    color: #440399;
+}
+.card-fundo{
+    background-color: #240054;
+}
+.card{
+    cursor: pointer;
+    transition: transform 0.8s ease;
+}
+
+.card:hover {
+    transform: scale(1.1); /* Escala ao passar o mouse */
+  }
+.btn-main{
+    background-color: #240054;
+    color: white;
+}
+.btn-main:hover{
+    background-color: #333;
+    color: white;
+}
+footer{
+    color: white;
+}
+footer a {
+    color: white;
+}
+
